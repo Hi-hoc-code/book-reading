@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="Register with Wattpad"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/border_edt"
+        android:hint="Enter your username"
+        android:paddingHorizontal="20dp"
+        android:inputType="text"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/border_edt"
+        android:hint="Enter your email"
+        android:paddingHorizontal="20dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="24dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/border_edt"
+        android:hint="Enter your password"
+        android:paddingHorizontal="20dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="24dp"
+        android:drawableEnd="@drawable/lock"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/border_edt"
+        android:hint="Comfirm password"
+        android:paddingHorizontal="20dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="24dp"
+        android:drawableEnd="@drawable/lock"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="Register "
+        app:cornerRadius="18dp"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#FF9901"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have an account?"
+        android:textAlignment="center"/>
+</LinearLayout>
